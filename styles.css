@@ -44,11 +44,33 @@ header {
 
 .company-description {
     text-align: center;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 1rem;
     padding: 1rem;
 }
 
 /* Products Section */
+#products {
+    background-color: rgb(135, 148, 222);
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.image-container div {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
 
 /* Staff Section */
