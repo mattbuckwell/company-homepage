@@ -3,6 +3,10 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
+section {
+    padding: 3rem 0;
+}
+
 /* NavBar Section */
 header {
     border-bottom: 2px solid #000;
@@ -58,7 +62,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem;
 }
 
 .image-container div {
@@ -74,3 +77,24 @@ header {
 }
 
 /* Staff Section */
+#staff {
+    background-color: chartreuse;
+}
+
+.staff-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.staff-container div {
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
