@@ -1,6 +1,14 @@
 html {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    --background: white;
+    --primary: white;
+    --link: white;
+    --secondary: white;
 }
 
 section {
