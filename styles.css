@@ -34,6 +34,20 @@ header {
 }
 
 /* About Us Section */
+#about-us {
+    height: 31.25rem;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-description {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 
 /* Products Section */
 
