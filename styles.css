@@ -11,23 +11,25 @@ html {
     --secondary: white;
 }
 
-section {
+/* section {
     margin-bottom: 6rem;
+} */
+
+body {
+    background-color: #ad510c73;
+    border-radius: 5px;
 }
 
 h3 {
     margin-left: 1.9rem;
-    color:#9b9b9b ;
-    border-bottom: 0.5px solid lightgray;
+    color:#fff;
+    border-bottom: 0.5px solid #fff;
+    margin-top: 0;
     margin-bottom: 3rem;
     font-weight: 400;
 }
 
 /* NavBar Section */
-header {
-    background-color: #fefae0;
-    border-radius: 10px;
-}
 
 .nav-list {
     display: flex;
@@ -45,13 +47,13 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #9b9b9b;
+    color: #fff;
 }
 
 .nav-item:first-child {
     margin-right: auto;
     margin-left: 1rem;
-    color: rgba( 148, 157, 121, 1);
+    color: #000;
 }
 
 /* Hero Section */
@@ -69,7 +71,7 @@ header {
 /* About Us Section */
 .company-description {
     text-align: center;
-    color: #9b9b9b;
+    color: #fff;
     border-radius: 1rem;
     padding: 1rem;
     line-height: 1.5rem;
@@ -107,18 +109,13 @@ header {
 
 .image-container div:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .image-container img {
     width: 180px;
     height: 170px;
     border-radius: 50%;
-    opacity: 0.5;
-}
-
-.image-container img:hover{
-    opacity: 1;
-    cursor: pointer;
 }
 
 /* Staff Section */
@@ -159,10 +156,8 @@ header {
 /* Footer Section */
 
 footer {
-    background-color: #fefae0;
-    color: #9b9b9b;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
 }
