@@ -11,16 +11,24 @@ html {
     --secondary: white;
 }
 
-body {
-    background-color: #fefae0;
+section {
+    margin-bottom: 6rem;
 }
 
 h3 {
     margin-left: 1.9rem;
     color:#9b9b9b ;
+    border-bottom: 0.5px solid lightgray;
+    margin-bottom: 3rem;
+    font-weight: 400;
 }
 
 /* NavBar Section */
+header {
+    background-color: #fefae0;
+    border-radius: 10px;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -53,7 +61,7 @@ h3 {
     background-image: url(https://images.pexels.com/photos/722653/pexels-photo-722653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     opacity: 0.9;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 60% 60%;
     background-size: cover;
     border-radius: 10px;
 }
@@ -68,6 +76,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.1rem;
 }
 
 .company-description p {
@@ -150,8 +159,10 @@ h3 {
 /* Footer Section */
 
 footer {
-   color: #9b9b9b;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    background-color: #fefae0;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
